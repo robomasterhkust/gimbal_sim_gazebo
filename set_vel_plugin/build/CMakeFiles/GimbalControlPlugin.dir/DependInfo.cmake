@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/GimbalControlPlugin.cpp" "/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/build/CMakeFiles/GimbalControlPlugin.dir/src/GimbalControlPlugin.cpp.o"
+  "/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/GimbalControlPlugin.cpp" "/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/build/CMakeFiles/GimbalControlPlugin.dir/src/GimbalControlPlugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

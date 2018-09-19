@@ -63,7 +63,7 @@ namespace gazebo
         ros::SubscribeOptions so = ros::SubscribeOptions::create<geometry_msgs::Twist>
           (
               //this->model->GetName() + "/motion_cmd",
-              "/key_vel",
+              "/cmd_vel",
               1,
               boost::bind(&GimbalControlPlugin::OnRosMsg, this, _1),
               ros::VoidPtr(), &this->rosQueue
@@ -140,9 +140,9 @@ namespace gazebo
             else if( _msg->angular.z < 0)
                 yaw_Ang = -1.0;
 
-            if( _msg->linear.x > 0)
+            if( _msg->angular.y > 0)
                 pitch_Ang = -0.5;
-            else if( _msg->linear.x < 0)
+            else if( _msg->angular.y < 0)
                 pitch_Ang = 0.5;
 
             //Prevent the turning angle to become too big
@@ -165,7 +165,7 @@ namespace gazebo
                 yaw_locked = true;
             }
             else yaw_locked = false;
-            if(_msg->linear.x != 0)
+            if(_msg->angular.y != 0)
             {
                 if(!pitch_locked)
                     updated = true;

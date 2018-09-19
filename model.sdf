@@ -621,7 +621,7 @@
     </joint>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
-    <plugin name='GimbalControlPlugin' filename='/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/build/libGimbalControlPlugin.so'>
+    <plugin name='GimbalControlPlugin' filename='/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/build/libGimbalControlPlugin.so'>
     </plugin>
   </model>
 </sdf>

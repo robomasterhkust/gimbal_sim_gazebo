@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/GimbalControlPlugin.cpp
+/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/GimbalControlPlugin.cpp
 stdio.h
 -
 thread
 -
 ros/ros.h
-/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/ros/ros.h
+/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/ros/ros.h
 ros/callback_queue.h
-/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/ros/callback_queue.h
+/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/ros/callback_queue.h
 ros/subscribe_options.h
-/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/ros/subscribe_options.h
+/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/ros/subscribe_options.h
 geometry_msgs/Twist.h
-/home/nameless/model_editor_models/Gimbal_fixed/set_vel_plugin/src/geometry_msgs/Twist.h
+/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/src/geometry_msgs/Twist.h
 gazebo/gazebo.hh
 -
 gazebo/physics/Joint.hh
