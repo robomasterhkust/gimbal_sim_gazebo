@@ -63,6 +63,9 @@ namespace gazebo
         ros::SubscribeOptions so = ros::SubscribeOptions::create<geometry_msgs::Twist>
           (
               //this->model->GetName() + "/motion_cmd",
+              // modify the following line to your own teleop topic name
+              // attention:
+              // different teleop may use different angular or linear velocity
               "/cmd_vel",
               1,
               boost::bind(&GimbalControlPlugin::OnRosMsg, this, _1),

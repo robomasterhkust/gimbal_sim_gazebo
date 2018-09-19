@@ -621,6 +621,7 @@
     </joint>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
+    <!--modify the following line to your own absolute path  -->
     <plugin name='GimbalControlPlugin' filename='/home/huier/Projects/robomaster/gimbal_sim_gazebo/set_vel_plugin/build/libGimbalControlPlugin.so'>
     </plugin>
   </model>
